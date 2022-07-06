@@ -3,7 +3,7 @@
 <h2>Live Site: <a href="https://rudradcruze.github.io/donate-today/">https://rudradcruze.github.io/donate-today/</a></h2>
 
 <p>This is the basic project or website on donation agency website based of HTML & CSS. This site has some well known eye catchy section. Like</p>
-<h2>The full site was divided into 5 section</h2>
+<h2>The full site was divided into 7 section</h2>
 <ul>
     <li>
         <a href="rudradcruze.github.io/donate-today/#header">Header Section (Hero Section)</a>
