@@ -1,4 +1,4 @@
-# donate-today
+# Donate-Today
 
 <h2>Live Site: <a href="https://rudradcruze.github.io/donate-today/">https://rudradcruze.github.io/donate-today/</a></h2>
 
