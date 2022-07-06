@@ -48,7 +48,7 @@
 <h3>
     <a href="index.html/#donate-plan">Donate Plan Section</a>
 </h3>
-<img src="images/documentation/donation-plans.png" alt="Donate Plan Section">
+<img src="images/documentation/donate-plans.png" alt="Donate Plan Section">
 
 <h3>
     <a href="index.html/#about-us">About Us Section</a>
@@ -63,4 +63,4 @@
 <h3>
     <a href="index.html/#get-update">Get Update & Footer Section</a>
 </h3>
-<img src="images/documentation/get-update&footer.png" alt="Get Update & Footer Section">
+<img src="images/documentation/get-updata&footer.png" alt="Get Update & Footer Section">
