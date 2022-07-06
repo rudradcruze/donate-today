@@ -18,7 +18,16 @@ a {
     text-decoration: none;
 }
 
+input {
+    border: none;
+    outline: none;
+}
+
 /* ======== Reusable Components ======== */
+
+section {
+    padding-top: 130px;
+}
 
 .container {
     width: 1320px;
@@ -34,11 +43,40 @@ a {
 	font-size: 20px;
 	line-height: 24px;
 	color: #fff;
+	text-align: center;
+	display: inline-block;
+}
+
+.common-heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.common-heading h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    padding-bottom: 20px;
+}
+
+.common-heading p {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #707070;
+	width: 50%;
+	align-self: center;
 }
 
 /* === Header Section === */
 
 section#header {
+    padding: 0;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -81,4 +119,58 @@ section#header p {
     width: 50%;
     margin: 0 auto;
     padding: 20px 0 30px 0;
+}
+
+/* === Donate Today Section === */
+
+section#donate-today {
+    text-align: center;
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.donate-amount .donate-amount-item {
+	padding: 45px 35px;
+	text-align: center;
+	background: #fafafa;
+	border-radius: 5px;
+	margin: 12.5px;
+}
+
+.donate-amount .donate-amount-item h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #707070;
+}
+
+.donate-amount .donate-amount-item.active {
+    background: #ffeeee;
+    border: 2px solid #ff5959;
+}
+
+.donate-amount .donate-amount-item.active  h3 {
+    color: #ff5959;
+}
+
+input.donate-others-amount {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 2px solid #DADADA;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input.donate-others-amount::placeholder {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #909090;
 }
