@@ -220,3 +220,50 @@ input.donate-others-amount::placeholder {
     line-height: 24px;
     color: #707070;
 }
+
+
+/* === Blog Info Section === */
+
+.blog-info-item {
+	display: flex;
+}
+
+.blog-info-item:last-child {
+	margin-top: 100px;
+    flex-direction: row-reverse;
+}
+
+.blog-info-item .blog-info-item-text {
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-right: 15%;
+}
+
+.blog-info-item .blog-info-item-text .common-heading {
+    text-align: left;
+}
+
+.blog-info-item:last-child .blog-info-item-text .common-heading h2 span {
+    display: block;
+}
+
+.blog-info-item .blog-info-item-text .common-heading p {
+    align-self: flex-start;
+    width: 100%;
+}
+
+.blog-info-item .blog-info-item-text a {
+    width: 40%;
+}
+
+.blog-info-item .blog-info-item-img {
+	width: 45%;
+	overflow: hidden;
+	margin-right: 95px;
+}
+
+.blog-info-item .blog-info-item-img img {
+	width: 180%;
+}
