@@ -295,3 +295,32 @@ input.donate-others-amount::placeholder {
     border-radius: 0px 5px 5px 0px;
     cursor: pointer;
 }
+
+/* === Footer Section === */
+
+footer#footer {
+    margin-top: 130px;
+    padding: 45px 0 90px 0;
+    background: #0B0D17;
+    text-align: center;
+}
+
+footer#footer h4 {
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+}
+
+footer#footer p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
+    padding-top: 25px;
+}
