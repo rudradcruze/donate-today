@@ -174,3 +174,49 @@ input.donate-others-amount::placeholder {
     line-height: 28px;
     color: #909090;
 }
+
+/* === Donate Plans Section === */
+
+.donate-plan-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-plan-wrapper .donate-plan-item {
+    width: 360px;
+    padding: 64px 25px 55px 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.donate-plan-wrapper .donate-plan-item:nth-child(1) {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.donate-plan-wrapper .donate-plan-item:nth-child(2) {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.donate-plan-wrapper .donate-plan-item:nth-child(3) {
+    background: #FFF4D6;
+}
+
+.donate-plan-wrapper .donate-plan-item h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    padding: 32px 0 16px 0;
+}
+
+.donate-plan-wrapper .donate-plan-item p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
